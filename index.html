@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Портфолио веб-разработчика: современные сайты, веб-приложения и адаптивные интерфейсы.">
+  <meta name="theme-color" content="#0b0b14">
+  <title>DEVFOLIO — портфолио веб-разработчика</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="DEVFOLIO — на главную">
+      <span class="brand-mark">&lt;/&gt;</span><span>DEVFOLIO</span>
+    </a>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#home" class="active">Главная</a>
+      <a href="#about">Обо мне</a>
+      <a href="#portfolio">Портфолио</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header-social">
+      <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+      <a href="https://t.me/" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">РАЗРАБОТКА · ДИЗАЙН · РЕШЕНИЯ</p>
+        <h1>Привет! Я —<br><span>веб-разработчик</span></h1>
+        <p class="lead">Изучаю веб-разработку и создаю современные цифровые проекты. Мне нравится превращать идеи в понятные интерфейсы, разбираться в технологиях и доводить детали до аккуратного результата.</p>
+        <a class="button" href="#contacts">Обсудить проект <span>↗</span></a>
+      </div>
+      <div class="hero-photo personal-hero" role="img" aria-label="Фотография автора портфолио"></div>
+      <div class="orb orb-one"></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">НЕСКОЛЬКО СЛОВ</p>
+        <h2>Обо мне</h2>
+        <span class="underline"></span>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p class="body-copy">Меня зовут Федоров Дмитрий Юрьевич. Я начинающий веб-разработчик: развиваю навыки создания сайтов и веб-интерфейсов, учусь соединять визуальную часть с логикой и создаю первые проекты для портфолио. Мне интересно не просто написать код, а понять задачу и сделать результат удобным для человека.</p>
+          <p class="body-copy">Мой путь в IT складывается из обучения, практики и постоянных экспериментов. Я стараюсь внимательно относиться к деталям, не бояться сложных задач и постепенно расширять набор инструментов. В этом портфолио собраны учебные концепции и фотографии, которые показывают мой интерес к развитию и новым возможностям.</p>
+          <div class="skills" aria-label="Навыки">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Figma</span>
+          </div>
+          <div class="personal-gallery" aria-label="Фотографии автора">
+            <img src="assets/portrait-classroom.jpg" alt="Автор у учебной доски" loading="lazy">
+            <img src="assets/portrait-building.jpg" alt="Автор в современном здании" loading="lazy">
+            <img src="assets/portrait-graduation.jpg" alt="Портрет автора на выпускном" loading="lazy">
+          </div>
+        </div>
+        <div class="code-card" aria-label="Декоративная адаптивная SVG-графика">
+          <svg viewBox="0 0 420 300" role="img" aria-labelledby="svgtitle">
+            <title id="svgtitle">Иллюстрация ноутбука с символами кода</title>
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9b72ff"/><stop offset="1" stop-color="#5430dc"/></linearGradient>
+            </defs>
+            <path d="M212 15C300-5 390 54 400 142s-61 147-156 143S22 248 26 153 123 35 212 15Z" fill="#5e36dc" opacity=".19"/>
+            <rect x="95" y="53" width="230" height="157" rx="17" fill="#27243b" stroke="#9a7aff" stroke-width="5" transform="rotate(-5 210 130)"/>
+            <rect x="110" y="68" width="200" height="126" rx="8" fill="#10101c" transform="rotate(-5 210 130)"/>
+            <text x="210" y="151" text-anchor="middle" font-size="48" font-weight="700" fill="url(#g)">&lt;/&gt;</text>
+            <path d="M72 218h276l-33 26H104Z" fill="url(#g)"/>
+            <path d="M104 244h211l-19 12H124Z" fill="#b49bff"/>
+            <circle cx="345" cy="65" r="12" fill="#a88aff"/><circle cx="72" cy="98" r="7" fill="#6d4be5"/>
+          </svg>
+          <p>Идеи → код → результат</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <div class="section-heading">
+        <p class="eyebrow">ИЗБРАННЫЕ РАБОТЫ</p>
+        <h2>Портфолио</h2>
+        <span class="underline"></span>
+      </div>
+      <div class="project-grid">
+        <article class="project project-one"><div class="project-art"><span class="mini-label">01 / LANDING</span><strong>Бизнес<br>без границ</strong><div class="art-lines"></div></div><h3>Лендинг для сервиса</h3><p>Структура, визуальная система и адаптивная верстка.</p></article>
+        <article class="project project-two"><div class="project-art"><span class="mini-label">02 / DASHBOARD</span><div class="chart"><i></i><i></i><i></i><i></i><i></i><i></i></div><strong>Analytics<br>dashboard</strong></div><h3>Панель аналитики</h3><p>Интерфейс с карточками показателей и графиками.</p></article>
+        <article class="project project-three"><div class="project-art"><span class="mini-label">03 / MOBILE</span><div class="phone"><b>◈</b><span>Ваш личный<br>ассистент</span><small>Начать работу →</small></div></div><h3>Мобильный интерфейс</h3><p>Концепция приложения с простым пользовательским сценарием.</p></article>
+        <article class="project project-four"><div class="project-art"><span class="mini-label">04 / EXPERIMENT</span><div class="wave"></div><strong>Digital<br>experience</strong></div><h3>Визуальный эксперимент</h3><p>Работа с градиентами, формой и микроанимацией.</p></article>
+      </div>
+      <p class="demo-note">Примечание: карточки проектов — демонстрационные концепции. Замените их скриншотами собственных работ перед сдачей.</p>
+    </section>
+
+    <section class="contacts section" id="contacts">
+      <div class="contact-info">
+        <div class="section-heading"><p class="eyebrow">ЕСТЬ ИДЕЯ?</p><h2>Контакты</h2><span class="underline"></span></div>
+        <p class="body-copy">Готов обсудить вашу задачу, предложить решение и рассказать, как можно реализовать проект. Напишите мне — отвечу в ближайшее время.</p>
+        <a class="contact-link" href="tel:+79214224426">☎ &nbsp;+7 (921) 422-44-26</a>
+        <a class="contact-link" href="mailto:fedorovdm08@mail.ru">✉ &nbsp;fedorovdm08@mail.ru</a>
+        <div class="socials"><a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a><a href="https://t.me/" target="_blank" rel="noopener">Telegram ↗</a></div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label for="name">Имя</label><input id="name" name="name" type="text" placeholder="Как к вам обращаться?" required minlength="2">
+        <label for="email">Email</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+        <label for="message">Сообщение</label><textarea id="message" name="message" rows="5" placeholder="Расскажите о вашем проекте..." required minlength="10"></textarea>
+        <button class="button submit" type="submit">Отправить сообщение <span>↗</span></button>
+        <p class="form-status" id="formStatus" aria-live="polite">Поля обязательны. Email проверяется браузером.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 DEVFOLIO. Все права защищены.</p>
+    <p>Сделано с вниманием к деталям <span>✦</span></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
